@@ -34,8 +34,8 @@ let myTshirtQuantity = 21;
 let myPantQuantity = 12; 
 let myShoeQuantity = 17; 
 
-const myShoppingCosts = totalSales(myTshirtQuantity, myPantQuantity, myShoeQuantity);
-console.log(myShoppingCosts);
+const myTotalCosts = totalSales(myTshirtQuantity, myPantQuantity, myShoeQuantity);
+console.log(myTotalCosts);
 
 // Third Problem
 
@@ -71,7 +71,7 @@ console.log(myShirtDeliveryCosts);
 
 // Problem 4
 
-function exactFreind(freinds) {
+function perfectFriend(freinds) {
     if (typeof freinds != "object") {
         return "Please enter your freinds array";
     }
@@ -82,5 +82,5 @@ function exactFreind(freinds) {
         }
     }
 }
-const myexactFreind = exactFreind(["Tasneem", "Abdullah", "Samit", "Jamal", "Kamal"]);
-console.log(myexactFreind);
+const myPerfectFriend = perfectFriend(["Tasneem", "Abdullah", "Samit", "Jamal", "Kamal"]);
+console.log(myPerfectFriend);
