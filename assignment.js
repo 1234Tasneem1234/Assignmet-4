@@ -8,10 +8,10 @@ function seerToMon(seer) {
     return mon;
 }
 
-let seer = 1000;
+let seer = 400;
 
-const myMon = seerToMon(seer);
-console.log(myMon);
+const convertedMon = seerToMon(seer);
+console.log(convertedMon);
 
 
 // Second Problem
